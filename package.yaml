@@ -1,7 +1,7 @@
 name:                fillit
 version:             0.1.0.0
-#synopsis:
-#description:
+synopsis:            Flexible string substitution
+description:         Please see README.md
 homepage:            https://github.com/ishiy1993/fillit#readme
 license:             BSD3
 author:              ishiy <y.ishihara.1993@gmail.com>
