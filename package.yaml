@@ -1,0 +1,21 @@
+name:                fillit
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/ishiy1993/fillit#readme
+license:             BSD3
+author:              ishiy <y.ishihara.1993@gmail.com>
+maintainer:          ishiy <y.ishihara.1993@gmail.com>
+copyright:           (c) 2017 ishiy
+category:            Text
+extra-source-files:
+  - README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - attoparsec
+  - text
+  - unordered-containers
+
+library:
+  source-dirs: src
