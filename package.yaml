@@ -13,9 +13,25 @@ extra-source-files:
 
 dependencies:
   - base >= 4.7 && < 5
-  - attoparsec
-  - text
   - unordered-containers
 
 library:
   source-dirs: src
+  ghc-options: -Wall
+  dependencies:
+    - data-default
+    - parsec
+    - text
+
+tests:
+  spec:
+    main: Spec.hs
+    source-dirs: test
+    dependencies:
+      - hspec
+      - fillit
+  doctests:
+    main: doctests.hs
+    source-dirs: test
+    dependencies:
+      - doctest
