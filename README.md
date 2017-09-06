@@ -1,4 +1,7 @@
 # fillit
+[![Hackage](https://img.shields.io/hackage/v/fillit.svg)](http://hackage.haskell.org/package/fillit-0.1.0.0)
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.org/ishiy1993/fillit)
+
 Flexible String Substitution library
 
 ## Features
